@@ -1,0 +1,238 @@
+/* STRUCTURE */
+body {
+    padding: 2em 80px 0 40px;
+    margin: 0;
+    background: #fff;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.35em;
+    display: flex;
+}
+/*
+Futura PT Heavy
+font-family: futura-pt, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Futura PT Heavy Oblique
+font-family: futura-pt, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Futura PT Book
+font-family: futura-pt, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Futura PT Book Oblique
+font-family: futura-pt, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Futura PT Bold
+font-family: futura-pt-bold, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Futura PT Bold Oblique
+font-family: futura-pt-bold, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Futura PT Cond Book
+font-family: futura-pt-condensed, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Futura PT Cond Book Oblique
+font-family: futura-pt-condensed, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Futura PT Cond Bold
+font-family: futura-pt-condensed, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Futura PT Cond Bold Oblique
+font-family: futura-pt-condensed, sans-serif;
+font-weight: 700;
+font-style: italic;
+*/
+a {
+    color: #354da1;
+}
+strong, h1, h2 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+header {
+    padding: 0 0 0 0;
+    width:15%;
+    flex-grow: 1;
+    text-align: left;
+    margin: 0 2em 0 0;    
+    display: flex;
+    flex-direction: column;
+    
+}
+header h1 {
+    padding: 0;
+    margin: 0 0 0 0;
+    font-family: futura-pt-condensed, sans-serif;
+    font-size: 1.95em;
+    font-weight: 700;
+    font-style: normal;
+}
+header h2 {
+    padding: 0;
+    margin: 3px 0 108px 0;
+    font-size: 1em;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+header nav {
+    flex-grow: 1;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+}
+header nav li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    font-style: normal;
+}
+header nav li a{
+    text-decoration: none;
+    color: #000;
+}
+header nav li.on a, header nav li a:hover{
+    text-decoration: underline;
+}
+header img {
+    width: 315px;
+}
+main {
+    width:60%;
+    flex-grow: 2;
+    padding: 0 0 0 0;
+    background: #ebebec;
+    
+}
+main section{
+    padding: 0 50px 2em 50px;
+    max-width: 850px;
+   
+}
+main section.abstract{
+    padding: 3.8em 50px 2em 50px;
+}
+main section.pre{
+    min-height: 500px;
+}
+
+
+main section ul{
+    margin: 0;
+    padding: 0;
+}
+main section li{
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+main p {
+    font-size: 1em;
+    margin: 0;
+    padding: 0 0 1em 0;
+}
+
+main h1, main h2 {
+    font-size: 0.85em;
+    padding: 28px 0 14px 0;
+    margin: 0;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+main h1{
+    padding: 1em 0 0 0;
+    font-size: 1em;
+}
+main h3{
+    display: inline;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 600;
+}
+table {
+    margin-top: 14px;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+table .break td,
+table .break th {
+    background-color: #dedede;
+}
+table th {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+}
+main footer{
+    background: #fff;
+}
+
+footer ul{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    align-content:space-between;
+    padding: 0;
+    margin: 0;
+}
+footer ul li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 50px;
+   
+}
+footer img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    height: 100px;
+}
+footer .ughent img{
+    height: 110px;
+}
+footer .inria img{
+    height: 50px;
+    position: relative;
+    top:-15px;
+    opacity: 0.8;
+}
+footer .unice img{
+    height: 70px;
+    position: relative;
+    top:-22px;
+}
+footer .usaclay img{
+    height: 50px;
+    position: relative;
+    top:-22px;
+    opacity: 0.7;
+}
+footer .mit img{
+   
+}
