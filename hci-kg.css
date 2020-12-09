@@ -150,6 +150,9 @@ main section li{
     padding: 0;
     font-size: 1em;
 }
+main section li ul{
+    padding: 0 0 14px 25px;
+}
 main p {
     font-size: 1em;
     margin: 0;
