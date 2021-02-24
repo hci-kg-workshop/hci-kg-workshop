@@ -230,16 +230,21 @@ footer .inria img {
 }
 footer .unice img {
   height: 60px;
-  position: relative;
+
   left: -15px;
   top: -22px;
 }
 footer .usaclay img {
   height: 43px;
-  position: relative;
   top: -22px;
   opacity: 0.7;
   left: 10px;
+}
+footer .aviz img {
+  height: 34px;
+  top: -18px;
+  opacity: 0.7;
+  left: 15px;
 }
 footer .mit img {
 }
